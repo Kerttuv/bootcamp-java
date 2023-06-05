@@ -1,26 +1,23 @@
 [
   {
-    "category": "Cultura",
-    "description": "Preguntas relacionadas con arte, literatura, música y otras expresiones culturales."
+    "category": "Música",
+    "description": "Preguntas relacionadas con música."
   },
   {
-    "category": "Deportes",
-    "description": "Preguntas relacionadas con diversos deportes y eventos deportivos."
+    "category": "Comidas rápidas",
+    "description": "Preguntas relacionadas con comidas rápidas tipicas del mundo."
   },
   {
-    "category": "Arte",
-    "description": "Preguntas relacionadas con pintura, escultura, arquitectura y otras formas de expresión artística."
+    "category": "Geografia",
+    "description": "Preguntas relacionadas con geografía"
   },
   {
-    "category": "Cine",
-    "description": "Preguntas relacionadas con películas, directores, actores y otros aspectos del cine."
+    "category": "Series",
+    "description": "Preguntas relacionadas con series."
   },
   {
-    "category": "Historia",
-    "description": "Preguntas relacionadas con eventos históricos, personajes y períodos importantes."
-  },
-  {
-    "category": "Ciencia",
-    "description": "Preguntas relacionadas con diferentes ramas de la ciencia, descubrimientos y avances científicos."
+    "category": "Sitcom",
+    "description": "Preguntas relacionadas con programas de TV o sitcoms"
   }
+  
 ]
