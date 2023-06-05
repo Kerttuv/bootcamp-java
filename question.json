@@ -4,4 +4,39 @@
   "options": ["Clasicismo", "Edad Media", "Barroco"],
   "answer": 2,
   "explanation": "Johann Sebastian Bach fue un compositor, músico, director de orquesta, maestro de capilla, cantor y profesor alemán del período barroco. Fue el miembro más importante de una de las familias de músicos más destacadas de la historia, con más de 35 compositores famosos: la familia Bach."
+}, 
+{
+  "category": "Comida rápida",
+  "question": "Cual es esta comida rápida que es originaria de los italianos y se encuentra en todo el mundo?", 
+  "options": ["tamal", "pizza", "morcilla"], 
+  "answer": 1, 
+  "explanation": "La pizza es una preparación culinaria originaria de Italia que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal que tradicionalmente se cubre con salsa de tomate y mozzarella y se hornea a alta temperatura en un horno de leña."
+}, 
+{
+  "category": "Geografía",
+  "question": "¿En que continente queda España?",
+  "options": ["Europa", "America del Sur", "Asia"],
+  "answer": 0,
+  "explanation": "España, país de la península ibérica de Europa, incluye 17 regiones autónomas con diversas características geográficas y culturales."
+}, 
+{
+  "category": "Programas de TV",
+  "question": "¿Como se llama la serie donde un profesor de quimica se llama Walter White?",
+  "options": ["Seinfeld", "Breaking Bad", "George de la Selva"],
+  "answer": 1,
+  "explanation": "Breaking Bad."
+}, 
+{
+  "category": "The Beatles",
+  "question": "¿Como se llama el bajista de 'The Beatles'?",
+  "options": ["Paul McCartney", "Ringo Star", "George Harrison"],
+  "answer": 0,
+  "explanation": "James Paul McCartney (Liverpool, Merseyside; 18 de junio de 1942) es un cantautor, compositor, músico, multiinstrumentista, escritor, activista, pintor y actor británico; que junto a John Lennon, George Harrison y Ringo Starr, ganó fama mundial por ser el bajista y uno de los cantantes de la banda de rock The Beatles."
+}, 
+{
+  "category": "MCU",
+  "question": "¿Como se llama el hermano de Thor?",
+  "options": ["Hugo", "Batman", "Loki"],
+  "answer": 2,
+  "explanation": "Loki Laufeyson, también conocido por su nombre adoptivo Loki Odinson y por su título como el Dios de las Mentiras, es un personaje ficticio interpretado por Tom Hiddleston en el Universo Cinematográfico de Marvel (MCU), basada en el personaje de Marvel Comics del mismo nombre y el dios mitológico nórdico del mismo nombre."
 }
