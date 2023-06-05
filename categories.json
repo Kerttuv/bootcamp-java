@@ -1,7 +1,7 @@
 [
   {
     "category": "Música",
-    "description": "Preguntas relacionadas con música."
+    "description": "Preguntas relacionadas con personajes históricos de música."
   },
   {
     "category": "Comidas rápidas",
@@ -9,15 +9,18 @@
   },
   {
     "category": "Geografia",
-    "description": "Preguntas relacionadas con geografía"
+    "description": "Preguntas relacionadas con la ubicación de paises."
   },
   {
     "category": "Series",
-    "description": "Preguntas relacionadas con series."
+    "description": "Preguntas relacionadas con series de TV."
   },
   {
-    "category": "Sitcom",
-    "description": "Preguntas relacionadas con programas de TV o sitcoms"
+    "category": "The Beatles",
+    "description": "Preguntas relacionadas con los integrantes de The Beatles."
+  },
+  {
+    "category": "MCU",
+    "description": "Preguntas relacionadas con los personajes del MCU  de Marvel."
   }
-  
 ]
