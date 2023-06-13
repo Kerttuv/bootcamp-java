@@ -2,8 +2,7 @@ import java.util.Scanner;
 public class cinco_numeros {
     /*Hacer un programa que permita al usuario ingresar 5 números y mostrarlos.*/
 
-    /*Después de realizar el ejercicio anterior, agregar que muestre el número
-    mayor y el número menor.*/
+
     /*Ahora, hay que mostrar el promedio. Para hacer esto se suman todos los números
      y se divide por 5, ya que el usuario agregó 5 números.*/
 
@@ -27,6 +26,26 @@ public class cinco_numeros {
         // Mostrar los números ingresados por el usuario
         for (int i = 0; i < 5; i++) {
             System.out.println(numeros[i]);
+
+             /*Después de realizar el ejercicio anterior, agregar que muestre el número
+            mayor y el número menor.*/
+
+            int mayor = numeros[0];
+            int menor = numeros[0];
+
+            for (int i = 1; i < 5; i++) {
+                if (numeros[i] > mayor) {
+                    mayor = numeros[i];
+                }
+
+                if (numeros[i] < menor) {
+                    menor = numeros[i];
+                }
+            }
+
+            // Mostrar el número mayor y el número menor
+            System.out.println("El número mayor es: " + mayor);
+            System.out.println("El número menor es: " + menor);
 
         }
     }
