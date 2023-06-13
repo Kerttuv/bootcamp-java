@@ -33,22 +33,21 @@ public class cinco_numeros {
             int mayor = numeros[0];
             int menor = numeros[0];
 
-            for (int i = 1; i < 5; i++) {
-                if (numeros[i] > mayor) {
-                    mayor = numeros[i];
+            for (int num : numeros) {
+                if (num > mayor) {
+                    mayor = num;
                 }
 
-                if (numeros[i] < menor) {
-                    menor = numeros[i];
+                if (num < menor) {
+                    menor = num;
                 }
             }
 
             // Mostrar el número mayor y el número menor
             System.out.println("El número mayor es: " + mayor);
             System.out.println("El número menor es: " + menor);
-
-        }
-    }
+                }
+            }
 
 
 }
