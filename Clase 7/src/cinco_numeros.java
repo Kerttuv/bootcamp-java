@@ -3,9 +3,6 @@ public class cinco_numeros {
     /*Hacer un programa que permita al usuario ingresar 5 números y mostrarlos.*/
 
 
-    /*Ahora, hay que mostrar el promedio. Para hacer esto se suman todos los números
-     y se divide por 5, ya que el usuario agregó 5 números.*/
-
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -27,13 +24,16 @@ public class cinco_numeros {
         for (int i = 0; i < 5; i++) {
             System.out.println(numeros[i]);
 
+
              /*Después de realizar el ejercicio anterior, agregar que muestre el número
             mayor y el número menor.*/
 
             int mayor = numeros[0];
             int menor = numeros[0];
 
-            for (int num : numeros) {
+            for (i=0; i<numeros.length; i++) {
+                int num = numeros[i];
+
                 if (num > mayor) {
                     mayor = num;
                 }
@@ -47,7 +47,19 @@ public class cinco_numeros {
             System.out.println("El número mayor es: " + mayor);
             System.out.println("El número menor es: " + menor);
                 }
-            }
+        /*Ahora, hay que mostrar el promedio. Para hacer esto se suman todos los números
+     y se divide por 5, ya que el usuario agregó 5 números.*/
+
+        double promedio = 0;
+        int suma = 0;
+
+        for (int i=0; i<5; i++){
+            suma = suma+numeros[i];
+    }
+        promedio = suma/numeros.length;
+        System.out.println("El promedio es: "+ promedio);
+
+}
 
 
 }
